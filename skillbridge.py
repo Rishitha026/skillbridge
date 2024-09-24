@@ -40,7 +40,7 @@ def send_successful_sign_in_sms():
     message = client.messages.create(
         body="Sign-in successful for RISHITHA.",
         from_="+16195972181",  # Your Twilio phone number
-        to="+919398441383",  # Your phone number
+        to="+91XXXXXXXXXX",  # Your phone number
     )
 
     # Print confirmation
